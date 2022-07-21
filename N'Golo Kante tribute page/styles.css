@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size:50px;
+ color: royalblue;
+
+}
+
+h3 {
+    font-style: italic;
+  
+}
+thead {
+    background-color:royalblue;
+}
+
+
+body {
+    background-image:url("ngolo-kante-illustration-ivon-lionard-transparent.png.jpeg"); 
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    color: rgb(15, 84, 211);
+    background-color: whitesmoke;
+    
+}
+

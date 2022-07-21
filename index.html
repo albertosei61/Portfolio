@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Albert's Portfolio Site</title>
+    <link rel="stylesheet" href="styles.css">
+
+   
+</head>
+
+
+
+
+
+
+
+
+<body>
+  
+
+<!-- NAVIGATION BAR -->
+  <nav>
+    <h1>Albert Osei</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a>
+      
+      </li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+</nav>
+
+
+ <!--
+<div class ="wrap">
+    <table>
+<tr> <img src="https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg" width="150" height="150" ></tr>
+<tr>I enivision to create and bring into the world something never seen before. <br> Inspiring Developer! </tr>
+ 
+</table>
+</div>
+-->
+
+<section class="hero" id="about">
+    <img 
+      src="5B43AF93-CAD8-400E-AFCD-1ECDB737BDF1.jpg"
+      alt="profile pic"
+      loading="lazy"
+      class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">My Story</h2>
+      <p class="bio-text">
+       I started my developer journey with the curisoity and the need to strive to master something that caught my attention <br> While also knowing the individual growth and career growth I can achieve with this field.
+      </p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <h2 class="skill-header">Skills Acquired</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="icons8-javascript-192.png"
+          alt="Javascript"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="channels4_profile.jpg"
+          alt="ServiceNOW"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+          alt="MySql"
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="icons8-css-filetype-96.png"
+          alt="CSS"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="icons8-java-120.png"
+          alt="Java"
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="images.png"
+          alt="C++ image"
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img
+          src="serviceNow project banner"
+          alt="ServiceNow Quick Guide"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Service Now Guide</h3>
+        <p class="project-details">
+          ServiceNow Capstone project that focuses on customization of an instance, incidents, roles/users, service catalog etc.  
+        </p>
+        <a href="zoom_1.mp4" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="/Users/albertosei/Desktop/Web development/images.jpeg"
+          alt="Vending Machine"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Drink Machine</h3>
+        <p class="project-details">
+          Project utilizing C++ in creating an interface for a vending machine that holds drinks.
+        </p>
+        <a href="main.cpp" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="football project pic"
+          alt=""
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">N'golo Kante</h3>
+        <p class="project-details">
+          An informative page utilizing html/css for N'golo Kante a cherised and decorated football player.
+        </p>
+        <a href="/Users/albertosei/Desktop/Web development/N'Golo Kante tribute page/index.html" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume and Cover Letter -->
+  
+  <!--
+    <section class="projects" id="projects">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img
+          src="serviceNow project banner"
+          alt="ServiceNow Quick Guide"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Service Now Guide</h3>
+        <p class="project-details">
+          ServiceNow Capstone project that focuses on customization of an instance, incidents, roles/users, service catalog etc.  
+        </p>
+        <a href="/Users/albertosei/Desktop/Web development/ Resume for infosys.pdf" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="/Users/albertosei/Desktop/Web development/images.jpeg"
+          alt="Vending Machine"
+          loading="lazy"  
+          class="project-pic"
+        />
+        <h3 class="project-title">Drink Machine</h3>
+        <p class="project-details">
+          Project utilizing C++ in creating an interface for a vending machine that holds drinks.
+        </p>
+        <a href="main.cpp" target="_blank" class="project-link">Check it Out</a>
+      </div>
+     
+    </div>
+  </section>   
+-->
+
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://mail.google.com/mail/u/0/?ogbl#inbox" method="POST" >
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Socials -->
+  <!--
+  <div class="socials">
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-linkedin-circled.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+    /></a>
+  -->
+  
+  <!-- Scroll -->
+
+  <!-- Scroll -->
+
+<!-- // scroll to top functionality -->
+<!--
+    const scrollUp = document.querySelector("#scroll-up");
+    
+    scrollUp.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+
+    
+        <i class="scroll-up" id="scroll-up"
+        ><img
+          src="https://img.icons8.com/ios-glyphs/30/000000/up-squared.png"
+          class="socicon up-arrow"
+          alt="scroll-up"
+      /></i>
+  
+    
+  
+   <hr>
+    
+    <h3> Education Progression</h3>
+    
+    <ul>`
+        <li> <a href="https://folwell.mtholly.k12.nj.us/">Gertrude C. Folwell Elementry School</a></li>
+    <li>
+        <a href="https://holbein.mtholly.k12.nj.us/">Holbein middle shool</a></li>
+    <li><a href= "https://www.rvrhs.com/">Rancocas Valley Regional High school</a></li>
+    
+    <li><a href="https://rcbc.edu/">Rowan college at burlington county</a></li>
+    
+    <li><a href="https://www.rowan.edu/">Rowan University</a></li>
+</ul>
+
+
+
+<hr>
+
+<a href="Resumeforinfosys.html" > Resume </a>
+
+
+
+<br>
+
+
+
+
+
+<a href="contacts.html">Contact list</a>
+<hr>
+<h3>Work Experience</h3>
+
+<table cellspacing="10">
+    <thead>
+        <th>Date</th>
+        <th>Company</th>
+    </thead>
+    <tr>
+    <td>2019-Present </td>
+    <td>Amazon</td>
+    </tr>
+    <tr>
+<td>2017-2019</td>
+<td>Arby's</td>
+    </tr>
+
+<a href="#skills 
+</table>
+<hr>
+<h3>Skills</h3>
+<table cellspacing="10">
+<tr>
+<td>Html &#11088 &#11088 &#11088 &#11088;</td>
+<td>Css &#11088 &#11088;</td>
+</tr>
+<tr>
+    <td>Javascript &#11088 &#11088 &#11088 &#11088;</td>
+   <td>SQL &#11088 &#11088;</td>
+</tr>
+</table>
+</a> 
+-->
+
+
+<!-- Footer -->
+<footer>
+  <p class="copy">&copy; Copyright 2022</p>
+  <p class="copy">
+    Built with VSC by
+      Albert Osei
+  </p>
+</footer>
+
+</body>
+
+ 
+
+</html>
+
